@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Student Web Page | ICT251</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Student Page</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">My Hobbies</a>
+    <a href="#photos">My Photos</a>
+    <a href="#plan">Learning Plan</a>
+    <a href="#media">My Media</a>
+    <a href="#contact">Contact</a>
+    <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a>
+  </nav>
+
+  <main>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        Hello! I am a dedicated student currently pursuing studies at Mulungushi University in the Department of Computer Science.
+        I am enthusiastic about discovering how web applications work and developing clean, modern digital experiences.
+        Through my coursework, I aim to master frontend structure, styling techniques, and digital media integration to build responsive websites.
+      </p>
+    </section>
+
+    <!-- HOBBIES & SKILLS PLAN SECTION -->
+    <section id="hobbies" class="section">
+      <h2>My Hobbies & Skills Plan</h2>
+      <h3>Hobbies</h3>
+      <ul>
+        <li>Coding & Web Design</li>
+        <li>Reading Technical Articles</li>
+        <li>Playing Football</li>
+      </ul>
+
+      <h3>Steps to Improve My Web Skills</h3>
+      <ol>
+        <li>Practice writing structured semantic HTML code every week.</li>
+        <li>Master CSS layout methods such as Flexbox and CSS Grid.</li>
+        <li>Learn JavaScript to build dynamic interactive web features.</li>
+      </ol>
+    </section>
+
+    <!-- PHOTO GALLERY SECTION -->
+    <section id="photos" class="section">
+      <h2>My Photos</h2>
+      <div class="gallery">
+        <figure>
+          <img src="images/photo1.jpg" alt="My first photo">
+          <figcaption>My first photo.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/photo2.jpg" alt="My second photo">
+          <figcaption>My second photo.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="images/photo3.jpg" alt="My third photo">
+          <figcaption>My third photo.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- DATA TABLE SECTION -->
+    <section id="plan" class="section">
+      <h2>Weekly Web Learning Plan</h2>
+      <table class="plan-table">
+        <caption>Weekly Web Learning Schedule</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Practice Task</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML Structure</td>
+            <td>Create semantic layouts and forms</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS Styling</td>
+            <td>Style page galleries and navigation menus</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Media & Responsiveness</td>
+            <td>Embed video, audio, and test mobile viewports</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- MEDIA SECTION -->
+    <section id="media" class="section">
+      <h2>My Media</h2>
+
+      <h3>My Introduction Video</h3>
+      <div class="media-container">
+        <video controls>
+          <source src="videos/intro.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+        <p class="transcript">
+          <strong>Video Summary:</strong> Hello! In this video, I introduce myself as a Computer Science student and talk about my goal to master web layout design and responsive web programming.
+        </p>
+      </div>
+
+      <h3>My Audio Clip</h3>
+      <div class="media-container">
+        <audio controls>
+          <source src="videos/voice.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p class="transcript">
+          <strong>Audio Summary:</strong> In this short recording, I share my personal motivation for choosing web technologies and my passion for creative computing.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p><em>Note: This form demonstration operates locally and does not send data live.</em></p>
+
+      <form action="#" method="get" class="contact-form">
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="topic">Topic:</label>
+          <input type="text" id="topic" name="topic" placeholder="Subject or Topic">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Student Web Development Portfolio | ICT251 Activity 2</p>
+  </footer>
+
+</body>
+</html>s
